@@ -8,7 +8,7 @@ license=('GPL')
 makedepends=('go')
 
 source=(
-    "git://github.com/reconquest/shadowd.git#branch=${BRANCH:-master}"
+    "git://github.com/zarplata/shadowd.git#branch=${BRANCH:-master}"
     "shadowd.service"
 )
 md5sums=('SKIP' 'SKIP')
